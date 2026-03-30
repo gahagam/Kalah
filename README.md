@@ -73,3 +73,64 @@
 
 ---
 
+## Структура 
+
+kalah/
+│
+├── README.md                                
+├── .gitignore                                 # Исключения для Android/Kotlin проекта
+│
+├── docs/                                      # АНАЛИТИЧЕСКАЯ ДОКУМЕНТАЦИЯ
+│   │
+│   ├── requirements/
+│   │   ├── README.md                          # Обзор требований
+│   │   ├── technical-specification.md         # ТЗ (объект автоматизации, требования к ИО, ТО, ПО)
+│   │   ├── functional-requirements.md         # Функции системы
+│   │   └── non-functional-requirements.md     # Требования к ТО, ПО, условиям эксплуатации
+│   │
+│   ├── domain-analysis/
+│   │   ├── README.md                          # Обзор анализа предметной области
+│   │   ├── domain-diagram.jpg                 # Диаграмма объектов
+│   │   ├── business-rules.md                  # Бизнес-правила игры
+│   │   └── competitors-analysis.md            # Анализ аналогов + таблица сравнения
+│   │
+│   ├── use-cases/
+│   │   ├── README.md                          # Текст + диаграмма use cases
+│   │   ├── use-case-diagram.jpg               # Диаграмма вариантов использования
+│   │   ├── UC-registration.md                 # Сценарий регистрации
+│   │   ├── UC-create-game.md                  # Сценарий создания игры
+│   │   ├── UC-make-move.md                    # Сценарий хода
+│   │   └── UC-view-statistics.md              # Сценарий статистики
+│   │
+│   ├── architecture/
+│   │   ├── README.md                          # Обзор архитектуры
+│   │   ├── structural-diagram.jpg             # Структурная схема
+│   │   ├── navigation-model.jpg               # Навигационная модель
+│   │   └── technology-stack.md                # Технологический стек
+│   │
+│   ├── interface/
+│   │   ├── README.md                          # Обзор интерфейсов
+│   │   ├── prototypes/
+│   │   │   ├── main-screen.jpg                # Главный экран
+│   │   │   ├── settings.jpg                   # Настройки
+│   │   │   ├── about.jpg                      # Об авторах
+│   │   │   ├── statistics.jpg                 # Статистика
+│   │   │   ├── registration.jpg               # Регистрация
+│   │   │   ├── new-game.jpg                   # Новая игра
+│   │   │   ├── game-board-wood.jpg            # Игровое поле (Дерево)
+│   │   │   ├── game-board-metal.jpg           # Игровое поле (Металл)
+│   │   │   └── navigation-model.jpg           # Навигационная модель
+│   │   └── ui-specification.md                # Детальное описание всех экранов
+│   │
+│   ├── data-model/
+│   │   ├── README.md                          # Обзор модели данных
+│   │   ├── logical-data-model.jpg             # Логическая модель
+│   │   ├── database-schema.sql                # CREATE TABLE скрипты для SQLite
+│   │   └── data-dictionary.md                 # Описание таблиц и полей
+│   │
+│   └── glossary/
+│       └── glossary.md                        # Термины: калах, манкала, лунка и т.д.
+│
+└── artifacts/                                 # ИСХОДНЫЕ МАТЕРИАЛЫ
+    ├── PI_20_03.docx                          # Оригинальная курсовая работа
+    └── traceability-matrix.md                 # Трассировка: требование → use case → класс
