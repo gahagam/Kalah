@@ -78,58 +78,58 @@
 
 kalah/
 │
-├── README.md
-├── .gitignore                    
+├── README.md                              # Главное описание проекта
+├── .gitignore                             # Исключения для Android/Kotlin
 │
-├── docs/                          # АНАЛИТИЧЕСКАЯ ДОКУМЕНТАЦИЯ
+├── docs/                                  # АНАЛИТИЧЕСКАЯ ДОКУМЕНТАЦИЯ
 │   │
-│   ├── requirements/
-│   │   ├── README.md              # Обзор требований
-│   │   ├── technical-specification.md   # ТЗ (объект автоматизации, требования к ИО, ТО, ПО)
-│   │   ├── functional-requirements.md   # Функции системы
-│   │   └── non-functional-requirements.md  # Требования к ТО, ПО, условиям эксплуатации
+│   ├── requirements/                      # Требования к системе
+│   │   ├── README.md                      # Обзор требований
+│   │   ├── technical-specification.md     # Техническое задание (ТЗ)
+│   │   ├── functional-requirements.md     # Функциональные требования
+│   │   └── non-functional-requirements.md # Нефункциональные требования
 │   │
-│   ├── domain-analysis/
-│   │   ├── README.md              # Обзор анализа предметной области
-│   │   ├── domain-diagram.jpg     # Диаграмма объектов
-│   │   ├── business-rules.md      # Бизнес-правила игры
-│   │   └── competitors-analysis.md   # Анализ аналогов + таблица сравнения
+│   ├── domain-analysis/                   # Анализ предметной области
+│   │   ├── README.md                      # Обзор анализа
+│   │   ├── domain-diagram.jpg             # Диаграмма объектов
+│   │   ├── business-rules.md              # Бизнес-правила игры
+│   │   └── competitors-analysis.md        # Анализ аналогов
 │   │
-│   ├── use-cases/
-│   │   ├── README.md              # Текст + диаграмма use cases
-│   │   ├── use-case-diagram.jpg   # Диаграмма вариантов использования
-│   │   ├── UC-registration.md     # Сценарий регистрации (выбор аватара)
-│   │   └── UC-change-visual.md    # Сценарий выбора визуализации доски
+│   ├── use-cases/                         # Варианты использования
+│   │   ├── README.md                      # Обзор use cases
+│   │   ├── use-case-diagram.jpg           # Диаграмма use cases
+│   │   ├── UC-registration.md             # Сценарий: регистрация + выбор аватара
+│   │   └── UC-change-visual.md            # Сценарий: выбор визуализации доски
 │   │
-│   ├── architecture/
-│   │   ├── README.md              # Обзор архитектуры
-│   │   ├── structural-diagram.jpg # Структурная схема
-│   │   ├── navigation-model.jpg   # Навигационная модель
-│   │   └── technology-stack.md    # Технологический стек
+│   ├── architecture/                      # Архитектура системы
+│   │   ├── README.md                      # Обзор архитектуры
+│   │   ├── structural-diagram.jpg         # Структурная схема
+│   │   ├── navigation-model.jpg           # Навигационная модель
+│   │   └── technology-stack.md            # Технологический стек
 │   │
-│   ├── interface/
-│   │   ├── README.md              # Обзор интерфейсов
-│   │   ├── prototypes/
-│   │   │   ├── main-screen.jpg    # Главный экран
-│   │   │   ├── settings.jpg       # Настройки
-│   │   │   ├── about.jpg          # Об авторах
-│   │   │   ├── statistics.jpg     # Статистика
-│   │   │   ├── registration.jpg   # Регистрация (выбор имени и аватара)
-│   │   │   ├── new-game.jpg       # Новая игра
-│   │   │   ├── game-board-wood.jpg  # Игровое поле (Дерево)
-│   │   │   ├── game-board-metal.jpg # Игровое поле (Металл)
-│   │   │   └── navigation-model.jpg # Навигационная модель
-│   │   └── ui-specification.md    # Детальное описание всех экранов
+│   ├── interface/                         # Пользовательский интерфейс
+│   │   ├── README.md                      # Обзор интерфейсов
+│   │   ├── prototypes/                    # Прототипы экранов
+│   │   │   ├── main-screen.jpg            # Главный экран
+│   │   │   ├── settings.jpg               # Настройки
+│   │   │   ├── about.jpg                  # Об авторах
+│   │   │   ├── statistics.jpg             # Статистика
+│   │   │   ├── registration.jpg           # Регистрация (имя + аватар)
+│   │   │   ├── new-game.jpg               # Новая игра
+│   │   │   ├── game-board-wood.jpg        # Игровое поле (Дерево)
+│   │   │   ├── game-board-metal.jpg       # Игровое поле (Металл)
+│   │   │   └── navigation-model.jpg       # Навигационная модель
+│   │   └── ui-specification.md            # Спецификация интерфейса
 │   │
-│   ├── data-model/
-│   │   ├── README.md              # Обзор модели данных
-│   │   ├── logical-data-model.jpg # Логическая модель
-│   │   ├── database-schema.sql    # CREATE TABLE скрипты для SQLite
-│   │   └── data-dictionary.md     # Описание таблиц и полей
+│   ├── data-model/                        # Модель данных
+│   │   ├── README.md                      # Обзор модели данных
+│   │   ├── logical-data-model.jpg         # Логическая модель
+│   │   ├── database-schema.sql            # SQL-схема (SQLite)
+│   │   └── data-dictionary.md             # Словарь данных
 │   │
-│   └── glossary/
-│       └── glossary.md            # Термины: калах, манкала, лунка и т.д.
+│   └── glossary/                          # Глоссарий
+│       └── glossary.md                    # Термины: калах, манкала, лунка
 │
-└── assets/                        # ДЛЯ README (опционально)
-    ├── screenshot-gameplay.png
-    └── demo.gif
+└── assets/                                # МЕДИА ДЛЯ README
+    ├── screenshot-gameplay.png            # Скриншот геймплея
+    └── demo.gif                           # Демонстрация работы
