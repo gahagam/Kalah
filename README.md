@@ -8,7 +8,7 @@
 
 ## Авторы
 
-| ФИО | Роль | Контакты |
+| ФИО | Роль | GitHub |
 |-----|------|----------|
 | Хархавкина Мария | Системный аналитик | [https://github.com/gahagam](https://github.com/gahagam) |
 | Мирошник Мария | Разработчик | [https://github.com/Miroshnik-Mariya](https://github.com/Miroshnik-Mariya) |
